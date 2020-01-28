@@ -11,13 +11,15 @@ body {
 
 /*Navigation*/
 
-.main-header {
-  width: 100%;
-
+img {
+  max-width: 100%;
 }
-.name, .main-nav li{
+
+
+.name, .main-nav {
   width: 100%;
   background-color: blue;
+
 }
 
 .name {
@@ -28,7 +30,7 @@ body {
   float: right;
 }
 
-.main-photo {
+.portfolio {
   float: center;
   margin: 0px 25px;
   width: 300px;
