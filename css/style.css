@@ -1,7 +1,13 @@
-/*Header*/
+/*BASE ELEMENT STYLES*/
 * {
   box-sizing: border-box;
 }
+
+body {
+
+}
+
+/* BASE LAYOUT STYLES */
 
 /*Navigation*/
 
@@ -9,13 +15,18 @@
   width: 100%;
 
 }
-.name, .main-nav li {
+.name, .main-nav li{
   width: 100%;
   background-color: blue;
 }
 
+.name {
+  float: left;
+}
 
-/* Body styles */
+.main-nav {
+  float: right;
+}
 
 .main-photo {
   float: center;
@@ -24,28 +35,37 @@
 
 }
 
-/*Base Element Styles*/
 
-body {
-  line-height: 1.6;
-  color: #000;
+
+
+/* Layout Containers */
+.body {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 70%;
+}
+/*
+.main-header {
+
+
 }
 
-.container {
-  width: 60%;
-}
+.main-footer {
+
+
+} */
 
 
 
 
+/* MEDIA QUERIES */
 
-
-
-
-
-
-@media (min-width: 789px) {
-
+@media (min-width: 769px) {
+  .main-body {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+  }
 
 
 
