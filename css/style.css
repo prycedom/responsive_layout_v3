@@ -7,21 +7,18 @@
 
 .main-header {
   width: 100%;
-}
-.name {
-  margin: 0;
 
 }
-.main-nav, .main-nav ul {
-   display: inline-block;
-   text-align: center;
-	 background: #fff;
-	 margin: 0;
+.name, .main-nav li {
+  width: 100%;
+  background-color: blue;
 }
+
+/* Body styles */
 
 .main-photo {
   float: center;
-  margin: 0px;
+  margin: 0px 25px;
   width: 300px;
 
 }
@@ -31,22 +28,8 @@
 body {
   line-height: 1.6;
   color: #000;
-
 }
 
-/*Layout Containers*/
-
-/* .wrapper {
-  width: 70%;
-  margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  background-color: #fgfgfg;
-} */
-
-.main-header {
-  padding: 1em 0;
-}
 
 
 
