@@ -4,22 +4,39 @@
 }
 
 body {
-
+ margin: 0;
 }
 
-/* BASE LAYOUT STYLES */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
 
-/*Navigation*/
+a {
+  text-decoration: none;
+
+}
 
 img {
   max-width: 100%;
 }
 
 
-.name, .main-nav {
-  width: 100%;
-  background-color: blue;
+/* BASE LAYOUT STYLES */
 
+/*Navigation*/
+
+.main-header {
+  width: 100%;
+
+}
+
+
+.top-bar {
+  height: 100px;
+  color: white;
+  background-color: blue;
+  margin: 10px;
 }
 
 .name {
@@ -30,11 +47,20 @@ img {
   float: right;
 }
 
+.main-nav a {
+  color: white;
+  background-color: gray;
+  padding: 5px, 30px;
+}
+
+.main-nav ul {
+  padding: 100%;
+
+}
 .portfolio {
   float: center;
   margin: 0px 25px;
-  width: 300px;
-
+  /* width: 300px; */
 }
 
 
