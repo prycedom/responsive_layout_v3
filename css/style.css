@@ -35,7 +35,6 @@ img {
 .top-bar {
   color: white;
   background-color: blue;
-  margin: 10px;
 }
 
 
@@ -44,11 +43,12 @@ img {
   color: white;
   background-color: gray;
   padding: 5px, 30px;
+  text-align: center;
 }
 
 .main-nav ul {
   padding: 100%;
-
+  text-align: center;
 }
 .portfolio {
   float: center;
