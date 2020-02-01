@@ -39,13 +39,7 @@ img {
   margin: 10px;
 }
 
-.name {
-  float: left;
-}
 
-.main-nav {
-  float: right;
-}
 
 .main-nav a {
   color: white;
@@ -95,6 +89,12 @@ img {
     margin: auto;
   }
 
+  /* .name {
+    float: left;
+  }
 
+  .main-nav {
+    float: right;
+  } */
 
 }
