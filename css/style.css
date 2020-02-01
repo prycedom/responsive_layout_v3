@@ -23,9 +23,14 @@ img {
 
 }
 
-
+h3 {
+  font-family: 'Molle', cursive;
+}
 /* BASE LAYOUT STYLES */
 
+p {
+  font-family: 'Zhi Mang Xing', cursive;
+}
 /*Navigation*/
 
 .main-header {
@@ -34,10 +39,10 @@ img {
 
 }
 
-
 .top-bar {
   color: white;
   background-color: blue;
+
 }
 
 .main-nav li {
@@ -50,6 +55,7 @@ img {
   background-color: gray;
   padding: 5px, 0px;
   text-align: center;
+  margin: 5;
 }
 
 .main-nav ul {
@@ -58,7 +64,7 @@ img {
 }
 .portfolio {
   float: center;
-  margin: 0px 25px;
+  margin: 5px 25px;
   /* width: 300px; */
 }
 
@@ -87,18 +93,19 @@ img {
 /* MEDIA QUERIES */
 
 @media (min-width: 769px) {
+
+
   .main-body {
     width: 70%;
     max-width: 1000px;
     margin: auto;
   }
+    .name {
+      float: left;
+    }
 
-  /* .name {
-    float: left;
+    .main-nav {
+      float: right;
+    }
   }
-
-  .main-nav {
-    float: right;
-  } */
-
 }
