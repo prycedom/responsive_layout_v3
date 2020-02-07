@@ -115,6 +115,12 @@ p {
     padding: 10px;
   }
 
+   .portfolio:after {
+     content: "";
+     display: block;
+     clear: both;
+    
+   }
   /* .container {
     display: flex;
   } */
