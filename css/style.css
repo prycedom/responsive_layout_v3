@@ -92,7 +92,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 
   .main-body {
@@ -100,12 +100,21 @@ p {
     max-width: 1000px;
     margin: auto;
   }
-    .name {
-      float: left;
-    }
 
-    .main-nav {
-      float: right;
-    }
+  .main-photo {
+    float: right;
+    margin: 10px;
+  }
+  .p {
+    float: right;
+    margin: 10px;
+  }
+h2 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+
   }
 }
