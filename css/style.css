@@ -3,6 +3,12 @@
   box-sizing: border-box;
 } */
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 body {
  margin: 0;
  text-align: center;
@@ -116,11 +122,6 @@ p {
      display: flex;
   }
 
-  .portfolio:after {
-    content: "";
-    display: inline-block;
-    clear: both;
-  }
 
   .sections {
     display: inline-block;
@@ -129,12 +130,8 @@ p {
 
 @media (min-width: 1024px) {
 
-  .portfolio:after {
-    content: "";
-    display: inline-block;
-    clear: both;
-  }
-  
+
+
   .container {
     display: inline-block;
   }
