@@ -135,9 +135,15 @@ p {
   .container {
     display: inline-block;
   }
-  .sections {
-    max-width: 200px;
+  @media (min-width: 1024px) {
+  .main-body {
+    width: unset;
   }
-}
+  .sections {
+    max-width: 30%;
+  }
+  .sections img {
+    max-width: 90%;
+  }
 
 }
