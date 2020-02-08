@@ -140,12 +140,9 @@ p {
 
 @media (min-width: 1024px) {
 
-
-
   .container {
     display: inline-block;
   }
-  /* @media (min-width: 1024px) { */
   .main-body {
     width: unset;
   }
@@ -155,5 +152,4 @@ p {
   .sections img {
     max-width: 90%;
   }
-
 }
