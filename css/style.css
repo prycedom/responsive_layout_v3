@@ -83,7 +83,11 @@ p {
 
 @media (min-width: 768px) {
 
-
+  .portfolio {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+  }
   .main-body {
     width: 70%;
     max-width: 1000px;
