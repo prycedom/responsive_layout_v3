@@ -1,7 +1,4 @@
 /*BASE ELEMENT STYLES*/
-/* * {
-  box-sizing: border-box;
-} */
 
 .clearfix::after {
   content: "";
@@ -82,20 +79,6 @@ p {
 }
 
 
-/*
-.main-header {
-
-
-}
-
-.main-footer {
-
-
-} */
-
-
-
-
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -152,7 +135,7 @@ p {
     padding: 0 15px;
 
   }
-
+}
 
 
 @media (min-width: 1024px) {
@@ -162,7 +145,7 @@ p {
   .container {
     display: inline-block;
   }
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) { */
   .main-body {
     width: unset;
   }
