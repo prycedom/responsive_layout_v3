@@ -53,7 +53,6 @@ p {
 .main-nav a {
   color: white;
   background-color: gray;
-  padding: 5px 0;
   text-align: center;
   margin: 5px;
 }
@@ -72,12 +71,7 @@ p {
   max-width: 70%;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: auto;
-} */
+
 
 
 /*
@@ -128,20 +122,10 @@ p {
     clear: both;
   }
 
-   /* .container {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     align-self: auto;
-   } */
-
-   .sections {
-     flex-grow: 1;
-   }
-
-  /* .container {
-    display: flex;
-  } */
+  .sections {
+    display: inline-block;
+    max-width: 250px;
+  }
 
 
 
