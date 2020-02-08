@@ -77,7 +77,9 @@ p {
   max-width: 70%;
 }
 
-
+.footer-nav {
+  display: inline-block;
+}
 
 
 /*
@@ -127,6 +129,30 @@ p {
     display: inline-block;
     max-width: 250px;
   }
+
+   .footer-nav {
+     width: 100%;
+     border-top: 10px;
+     border-color: gray;
+   }
+
+  .footer-nav h4 {
+    float: left;
+  }
+
+  .footer-nav ul {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .footer-nav a {
+    padding: 0 15px;
+
+  }
+
+
 
 @media (min-width: 1024px) {
 
