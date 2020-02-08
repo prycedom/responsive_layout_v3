@@ -118,7 +118,7 @@ p {
 
   .portfolio:after {
     content: "";
-    display: table;
+    display: inline-block;
     clear: both;
   }
 
@@ -127,6 +127,20 @@ p {
     max-width: 250px;
   }
 
+@media (min-width: 1024px) {
 
+  .portfolio:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+  }
+  
+  .container {
+    display: inline-block;
+  }
+  .sections {
+    max-width: 200px;
+  }
+}
 
 }
