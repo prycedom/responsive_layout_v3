@@ -129,11 +129,12 @@ p {
     display: inline-block;
     max-width: 250px;
   }
-
+   .main-footer {
+     border-top: 5px solid gray;
+   }
    .footer-nav {
      width: 100%;
-     border-top: 10px;
-     border-color: gray;
+     border-top: 5px solid gray;
    }
 
   .footer-nav h4 {
